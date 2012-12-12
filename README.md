@@ -1,6 +1,12 @@
 # IsoCountries
 
-TODO: Write a gem description
+Gem provides country data according to ISO 3166 as OpenStruct object that
+holds country name, number, A2 and A3 codes, and aliases if any. These objects
+are global and shared, so you can add your own fields you might find useful.
+
+Currently only few national names and aliases are added, you can add an issue
+here https://github.com/sergeych/iso_countries/issues or just fork and add it
+yourself.
 
 ## Installation
 
@@ -18,9 +24,6 @@ Or install it yourself as:
 
 ## Usage
 
-Gem provides country data according to ISO 3166 as OpenStruct object that holds country name, number, A2 and A3 codes,
-and aliases if any.
-These objects are global and shared, so you can add, say, your own aliases or other field you might find useful.
 
 To get country data from name use either its ISO
 
