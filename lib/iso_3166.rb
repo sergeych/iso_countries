@@ -1,8 +1,8 @@
 # encoding: utf-8
-require "iso_countries/version"
+require "iso_3166/version"
 require "unicode_utils/upcase"
 
-module IsoCountries
+module Iso3166
 
 #
 # Iso3166 countries standard utility class
@@ -52,7 +52,7 @@ require 'ostruct'
 	    end
 
 	    # Return ISO3166 data for a country code which could be of type 2 or 3, respectfully,
-	    # 2 or 3 characters long, any case. For data format see IsoCountries.for_name
+	    # 2 or 3 characters long, any case. For data format see Iso3166.for_name
 	    def for_code code
 	      code.length == 2 ? @codes2[code.upcase] : @codes3[code.upcase]
 	    end
@@ -117,7 +117,7 @@ require 'ostruct'
 
 
 	# Return ISO3166 data for a country code which could be of type 2 or 3, respectfully,
-	# 2 or 3 characters long, any case. For data format see IsoCountries.for_name
+	# 2 or 3 characters long, any case. For data format see Iso3166.for_name
 	def for_code code
 		Coder.for_code code
 	end
@@ -661,9 +661,9 @@ End
 
 
 # By default, initialize with contents above
-IsoCountries::Coder.import_iso3166 _iso3166
-IsoCountries::Coder.import_aliases _aliases
-IsoCountries::Coder.import_aliases _more_aliases
+Iso3166::Coder.import_iso3166 _iso3166
+Iso3166::Coder.import_aliases _aliases
+Iso3166::Coder.import_aliases _more_aliases
 
 
 
