@@ -298,6 +298,7 @@ end
 	MOLDOVA, REPUBLIC OF                            MD      MDA     498
 	MONACO                                          MC      MCO     492
 	MONGOLIA                                        MN      MNG     496
+	MONTENEGRO                                      ME      MNE     499
 	MONTSERRAT                                      MS      MSR     500
 	MOROCCO                                         MA      MAR     504
 	MOZAMBIQUE                                      MZ      MOZ     508
@@ -344,7 +345,7 @@ end
 	SAO TOME AND PRINCIPE                           ST      STP     678
 	SAUDI ARABIA                                    SA      SAU     682
 	SENEGAL                                         SN      SEN     686
-	SERBIA AND MONTENEGRO                           CS      SCG     891
+	SERBIA                                          RS      SRB     688
 	SEYCHELLES                                      SC      SYC     690
 	SIERRA LEONE                                    SL      SLE     694
 	SINGAPORE                                       SG      SGP     702
